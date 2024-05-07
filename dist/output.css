@@ -586,12 +586,80 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-\[250px\]{
+  margin-top: 250px;
+}
+
+.mb-\[250px\]{
+  margin-bottom: 250px;
+}
+
+.mb-\[450px\]{
+  margin-bottom: 450px;
+}
+
+.mb-\[600px\]{
+  margin-bottom: 600px;
+}
+
+.mr-8{
+  margin-right: 2rem;
+}
+
+.mr-52{
+  margin-right: 13rem;
+}
+
+.mr-60{
+  margin-right: 15rem;
+}
+
+.mr-\[50px\]{
+  margin-right: 50px;
+}
+
+.mr-\[16rem\]{
+  margin-right: 16rem;
+}
+
+.mr-\[15\.2\]{
+  margin-right: 15.2;
+}
+
+.mr-\[15\.2rem\]{
+  margin-right: 15.2rem;
+}
+
+.mr-\[15\.5rem\]{
+  margin-right: 15.5rem;
+}
+
+.mr-\[15rem\]{
+  margin-right: 15rem;
+}
+
+.mr-\[14rem\]{
+  margin-right: 14rem;
+}
+
+.mr-\[14\.5rem\]{
+  margin-right: 14.5rem;
+}
+
+.mr-\[14\.9rem\]{
+  margin-right: 14.9rem;
+}
+
 .inline-block{
   display: inline-block;
 }
 
 .flex{
   display: flex;
+}
+
+.inline-flex{
+  display: inline-flex;
 }
 
 .table{
@@ -622,6 +690,10 @@ video {
   max-width: 100%;
 }
 
+.flex-1{
+  flex: 1 1 0%;
+}
+
 .list-decimal{
   list-style-type: decimal;
 }
@@ -630,8 +702,16 @@ video {
   list-style-type: disc;
 }
 
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
+}
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 .items-center{
@@ -642,24 +722,56 @@ video {
   justify-content: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
 
-.gap-\[215px\]{
-  gap: 215px;
+.gap-\[200px\]{
+  gap: 200px;
 }
 
-.gap-\[217px\]{
-  gap: 217px;
+.gap-\[100px\]{
+  gap: 100px;
 }
 
-.gap-\[230px\]{
-  gap: 230px;
+.gap-\[40px\]{
+  gap: 40px;
 }
 
-.gap-\[250px\]{
-  gap: 250px;
+.gap-\[20px\]{
+  gap: 20px;
+}
+
+.gap-\[25px\]{
+  gap: 25px;
+}
+
+.gap-\[30px\]{
+  gap: 30px;
+}
+
+.gap-\[35px\]{
+  gap: 35px;
+}
+
+.gap-\[32px\]{
+  gap: 32px;
+}
+
+.gap-\[33px\]{
+  gap: 33px;
 }
 
 .rounded-\[15px\]{
@@ -703,18 +815,6 @@ video {
 
 .p-9{
   padding: 2.25rem;
-}
-
-.p-\[50px\]{
-  padding: 50px;
-}
-
-.p-\[55px\]{
-  padding: 55px;
-}
-
-.p-\[60px\]{
-  padding: 60px;
 }
 
 .p-\[90px\]{
